@@ -37,7 +37,7 @@ async def start(bot, update):
         reply_to_message_id=update.message_id
     )
 
-@FayasNoushad.on_message(filters.media & filters.private)
+@FayasNoushad.on_message(filters.text & filters.private)
 async def attach(bot, update):
     media = "./DOWNLOADS/" + "FayasNoushad/FnAttachBot"
     if update.reply_to_message is None:
