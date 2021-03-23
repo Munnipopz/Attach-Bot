@@ -58,7 +58,7 @@ async def attach(bot, update):
             print(error)
             await text.edit_text(text=f"Error :- {error}", disable_web_page_preview=True)
             return
-        await text.edit_text(text=f"{update.text} [{\u2063}](https://telegra.ph{response[0]})")
+        await text.edit_text(text=f"{update.text} [\u2063](https://telegra.ph{response[0]})")
         try:
             os.remove(media)
         except:
