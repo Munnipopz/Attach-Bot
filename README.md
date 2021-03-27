@@ -46,4 +46,5 @@ python3 bot.py
 
 ### Credits
 
+* [Fayas Noushad](https://github.com/FayasNoushad)
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
